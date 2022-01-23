@@ -5,6 +5,7 @@ on:
     paths:
       - 'services/test-server'
       - 'services/shared'
+  workflow_dispatch:
 
 jobs:
   docker:
