@@ -2,8 +2,8 @@ import express from "express";
 import { IUser } from "@channelcheckr/shared";
 
 const user: IUser = {
-  firstname: "Jessica",
-  lastname: "Dane",
+  firstname: "Jack",
+  lastname: "Dust",
 };
 
 const port = parseInt(process.env.PORT || "3000", 10);

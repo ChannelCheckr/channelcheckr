@@ -3,8 +3,8 @@ name: Docker image for @channelcheckr/test-server
 on:
   push:
     paths:
-      - "services/test-server"
-      - "services/shared"
+      - "services/test-server/**"
+      - "services/shared/**"
   workflow_dispatch:
 
 jobs:
