@@ -1,0 +1,17 @@
+{
+  "name": "channelcheckr",
+  "version": "0.1.0",
+  "description": "ChannelCheckr Monorepo",
+  "repository": "git@github.com:ChannelCheckr/channelcheckr.git",
+  "author": "Rein van Haaren <rein@reinvanhaaren.nl>",
+  "private": true,
+  "workspaces": [
+    "services/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.1"
+  }
+}
